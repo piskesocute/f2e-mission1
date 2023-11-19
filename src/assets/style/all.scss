@@ -1,0 +1,117 @@
+@import "bootstrap/functions";
+@import "helpers/custom_variables";
+@import "helpers/custom_variables-dark";
+@import "bootstrap/maps";
+@import "bootstrap/mixins";
+@import "bootstrap/utilities";
+@import "helpers/custom_utilities";
+@import "bootstrap/bootstrap";
+
+.mantou-font {
+  font-family: "MantouSans-Regular", fallback, sans-serif;
+}
+.inter-font-thin,
+.inter-font-extralight,
+.inter-font-light,
+.inter-font-regular,
+.inter-font-medium,
+.inter-font-semibold,
+.inter-font-bold,
+.inter-font-extrabold,
+.inter-font-black {
+  font-family: "Inter", fallback, sans-serif;
+}
+
+.inter-font-thin {
+  font-weight: 100;
+}
+.inter-font-extralight {
+  font-weight: 200;
+}
+.inter-font-light {
+  font-weight: 300;
+}
+.inter-font-regular {
+  font-weight: 400;
+}
+.inter-font-medium {
+  font-weight: 500;
+}
+.inter-font-semibold {
+  font-weight: 600;
+}
+.inter-font-bold {
+  font-weight: 700;
+}
+.inter-font-extrabold {
+  font-weight: 800;
+}
+.inter-font-black {
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "MantouSans-Regular";
+  src: url("../style/font/MantouSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../style/font/Inter-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../style/font/Inter-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../style/font/Inter-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../style/font/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../style/font/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../style/font/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../style/font/Inter-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../style/font/Inter-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../style/font/Inter-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}

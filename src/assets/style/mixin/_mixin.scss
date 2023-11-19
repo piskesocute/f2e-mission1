@@ -1,0 +1,59 @@
+@mixin xxl {
+  @media (max-width: 1400px) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin xs {
+  @media (max-width: auto) {
+    @content;
+  }
+}
+
+@mixin gradient-bg($start-color, $end-color) {
+  background: $start-color;
+  background: -webkit-linear-gradient(to right, $start-color, $end-color);
+  background: linear-gradient(to right, $start-color, $end-color);
+}
+
+.btn-primary-gradient {
+  @include gradient-bg(#e5793b, #ff4185);
+}
+
+//font color(not background) use linear-gradient
+
+@mixin gradient-text($start-color, $end-color) {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, $start-color, $end-color);
+}
+
+.my-class {
+  @include gradient-text(#e5793b, #ff4185);
+}
